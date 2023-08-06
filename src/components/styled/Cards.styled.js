@@ -4,19 +4,18 @@ export const CardImage = styled.div`
 width: 167px;
 height: 167px;
 background: #cfcfcf;
-border-style: solid;
-border-color: white;
 `;
 
 export const CardName = styled.div`
 width: 167px;
-height: 44.12px;
+height: 49.12px;
 background-color: white;
 color: black;
-border-style: solid;
-border-color: white;
 `;
 
 export const MainCard = styled.div`
 padding-top: 15px;
+height: 216px;
+width: 167px;
+padding: 20px 0 25px 0;
 `;

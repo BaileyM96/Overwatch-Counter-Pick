@@ -4,6 +4,9 @@ export const CharacterContainer = styled.div`
 display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
+align-items: center;
+text-align: center;
+font-weight: bolder;
 `;
 
 export const TitleContainer = styled.div`

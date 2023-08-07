@@ -7,6 +7,7 @@ justify-content: space-around;
 align-items: center;
 text-align: center;
 font-weight: bolder;
+margin-bottom: 70px;
 `;
 
 export const TitleContainer = styled.div`

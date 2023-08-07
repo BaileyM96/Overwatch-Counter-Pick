@@ -3,12 +3,12 @@ import { damageCharacters } from "./Classes/Damage/DamageCharacters";
 import { tankCharacters } from "./Classes/Tank/TankCharacters";
 import { supportCharacters } from "./Classes/Support/SupportCharacter";
 import { CharacterContainer } from "./styled/Containers/Container.styled";
-import { HeaderContainer, NameContainer } from "./styled/Containers/header.styled";
+import { HeaderContainer } from "./styled/Containers/header.styled";
 
 export default function Card() {
     return (
         <>
-        <HeaderContainer>
+        <HeaderContainer id="damage">
             <h3 style={{color: 'white'}}>Damage</h3>
         </HeaderContainer>
         <CharacterContainer>
@@ -22,7 +22,9 @@ export default function Card() {
                 </MainCard>
             ))}
             </CharacterContainer>
-           <HeaderContainer>
+
+
+           <HeaderContainer id="tank">
             <h3 style={{color: 'white'}}>Tank</h3>
            </HeaderContainer>
            <CharacterContainer>
@@ -35,7 +37,9 @@ export default function Card() {
                 </MainCard>        
             ))}
             </CharacterContainer>
-            <HeaderContainer>
+
+
+            <HeaderContainer id="support">
                 <h3 style={{color: 'white'}}>Support</h3>
             </HeaderContainer>
         <CharacterContainer>

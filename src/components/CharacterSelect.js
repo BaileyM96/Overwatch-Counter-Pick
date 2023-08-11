@@ -1,6 +1,6 @@
 //Add the overwatch Image to this component
 import overwatchlogo  from '../images/overwatchlogo.png';
-import Card from './Card';
+import Card from '../components/Cards/Card';
 import { TitleContainer } from './styled/Containers/Container.styled';
 import Navbar from './Navbar/Navbar';
 

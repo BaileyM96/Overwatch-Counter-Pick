@@ -1,9 +1,9 @@
-import { CardImage, CardName, MainCard } from "./styled/Cards.styled";
-import { damageCharacters } from "./Classes/Damage/DamageCharacters";
-import { tankCharacters } from "./Classes/Tank/TankCharacters";
-import { supportCharacters } from "./Classes/Support/SupportCharacter";
-import { CharacterContainer } from "./styled/Containers/Container.styled";
-import { HeaderContainer } from "./styled/Containers/header.styled";
+import { CardImage, CardName, MainCard } from "../styled/Cards.styled";
+import { damageCharacters } from "../Classes/Damage/DamageCharacters";
+import { tankCharacters } from "../Classes/Tank/TankCharacters";
+import { supportCharacters } from "../Classes/Support/SupportCharacter";
+import { CharacterContainer } from "../styled/Containers/Container.styled";
+import { HeaderContainer } from "../styled/Containers/header.styled";
 
 export default function Card() {
     return (

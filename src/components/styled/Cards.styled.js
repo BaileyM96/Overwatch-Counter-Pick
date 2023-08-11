@@ -17,5 +17,5 @@ export const MainCard = styled.div`
 padding-top: 15px;
 height: 216px;
 width: 167px;
-padding: 20px 0 25px 0;
+/* padding: 20px 0 25px 0; */
 `;

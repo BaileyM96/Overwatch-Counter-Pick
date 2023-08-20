@@ -1,7 +1,13 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat&display=swap');
+@font-face {
+    font-family: 'SNES';
+    src: url('https://www.fontspace.com/snes-font-f26537') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Montserrat&display=swap'); */
 
 body {
 background: hsla(221, 51%, 16%, 1);
@@ -14,6 +20,6 @@ background: -webkit-radial-gradient(circle, hsla(221, 51%, 16%, 1) 26%, hsla(0, 
 /* height: 100vh; */
 margin: 0;
 padding: 0;
-font-family: 'Luckiest Guy', cursive;
+/* font-family: 'Luckiest Guy', cursive; */
 }
 `;

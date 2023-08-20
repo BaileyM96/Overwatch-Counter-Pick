@@ -1,5 +1,31 @@
     //add useState for changing of characters
-   export const getCounterCharacter = (character, type) => {
+import { damageCharacters } from "../Classes/Damage/DamageCharacters";
+import { tankCharacters } from "../Classes/Tank/TankCharacters";
+import { supportCharacters } from "../Classes/Support/SupportCharacter";
+
+const allCharacters = [...damageCharacters, ...tankCharacters, ...supportCharacters]
+
+const findCharacterImage = (characterName, type) => {
+    let characterArr;
+
+    switch(type) {
+        case 'damage':
+            characterArr = damageCharacters;
+            break;
+        case 'tank':
+            characterArr = tankCharacters;
+            break;
+        case 'support':
+            characterArr = supportCharacters;
+            break;
+        default:
+        return null;
+    }
+
+    const character = characterArr.find(char => char.name === characterName);
+    return character ? character.image : null;
+}
+    export const getCounterCharacter = (character, type) => {
         const counterMap = {
             'damage': {
                 'Ashe': ['Doomfist','Echo','Genji', 'Reaper', 'Roadhog', 'Soldier 76', 'Sombra', 'Tracer'],
@@ -44,5 +70,11 @@
                 'Zenyatta': ['DVA', 'Echo', 'Genji', 'Pharah', 'Reaper', 'Sigma', 'Tracer', 'Widowmaker']
             }
         }
-        return counterMap[type][character.name] || []
+        const counterNames = counterMap[type][character.name] || [];
+        return counterNames.map(name => allCharacters.find(char => char.name === name)).filter(Boolean); //The filter is to make sure the returned array contains valid character objects
+
+        // return counterNames.map(counterName => ({
+        //     name: counterName,
+        //     image: findCharacterImage(counterName, type)
+        // }));
     };

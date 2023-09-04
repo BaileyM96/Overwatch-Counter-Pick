@@ -13,9 +13,10 @@ background-color: white;
 color: black;
 `;
 
+//The border color needs to be orange when It is clicked
 export const MainCard = styled.div`
-padding-top: 15px;
 height: 216px;
 width: 167px;
-/* padding: 20px 0 25px 0; */
+border: ${(props) => (props.onClick ? 'none' : '5px solid #f06414')};
+box-shadow: ${(props) => (props.onClick ? 'none' : '0 0 25px  #f06414')};
 `;

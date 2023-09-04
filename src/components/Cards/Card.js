@@ -2,7 +2,7 @@ import { CardImage, CardName, MainCard } from "../styled/Cards.styled";
 import { damageCharacters } from "../Classes/Damage/DamageCharacters";
 import { tankCharacters } from "../Classes/Tank/TankCharacters";
 import { supportCharacters } from "../Classes/Support/SupportCharacter";
-import { CharacterContainer, NameContainer, TitleContainer, } from "../styled/Containers/Container.styled";
+import { CharacterContainer, NameContainer } from "../styled/Containers/Container.styled";
 import { HeaderContainer } from "../styled/Containers/header.styled";
 import { CounterContainer, FadeIn } from "./CounterCharacter.styled";
 import { Fade } from "react-bootstrap";
@@ -10,12 +10,16 @@ import Navbar from "../Navbar/Navbar";
 
 //Hook
 import { getCounterCharacter } from "./CounterCharacters";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Card() {
     //allow the selected character to stay on screen
     const [selectedCharacter, setSelectedCharacter] = useState(null);
     const [open, setOpen] = useState(false)
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [selectedCharacter]);
 
     function handleCounter(character, type) {
         //gets the array of counters for a character based off of character type
@@ -109,8 +113,6 @@ export default function Card() {
                         </div>
                         </FadeIn>
                     ))}
-                {/* </MainCard> */}
-                {/* <Navbar showGoBack={selectedCharacter !== null} onGoBack={() => setSelectedCharacter(null)}/> */}
             </CounterContainer>
             </>
         )}

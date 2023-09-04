@@ -18,3 +18,16 @@ export const ClassLink = styled.a`
 font-weight: bolder;
 font-size: large;
 `;
+
+export const ClassLink1 = styled(ClassLink)`
+display: flex;
+justify-content: space-evenly;
+/* flex-direction: row; */
+`;
+
+
+export const BackContainer = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+`;

@@ -10,12 +10,12 @@ export default function CharacterSelect() {
         <TitleContainer>
             <img src={overwatchlogo} width='89px' height='89px' alt='overwatch logo'/>
             <h1 style={{color: 'white'}}>Overwatch Counter</h1>
-            <h3 style={{color: 'white'}}>Choose who you want to counter</h3>
+            {/* <h3 style={{color: 'white'}}>Choose who you want to counter</h3> */}
         </TitleContainer>
         <Card />
 
         
-        <Navbar />
+        {/* <Navbar /> */}
         </>
     )
 }

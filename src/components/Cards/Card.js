@@ -2,10 +2,11 @@ import { CardImage, CardName, MainCard } from "../styled/Cards.styled";
 import { damageCharacters } from "../Classes/Damage/DamageCharacters";
 import { tankCharacters } from "../Classes/Tank/TankCharacters";
 import { supportCharacters } from "../Classes/Support/SupportCharacter";
-import { CharacterContainer, } from "../styled/Containers/Container.styled";
+import { CharacterContainer, NameContainer, TitleContainer, } from "../styled/Containers/Container.styled";
 import { HeaderContainer } from "../styled/Containers/header.styled";
 import { CounterContainer, FadeIn } from "./CounterCharacter.styled";
 import { Fade } from "react-bootstrap";
+import Navbar from "../Navbar/Navbar";
 
 //Hook
 import { getCounterCharacter } from "./CounterCharacters";
@@ -42,7 +43,9 @@ export default function Card() {
                     <CardImage>
                         <img src={damage.image} alt={damage.name}/>
                     </CardImage>
-                    <CardName>{damage.name}</CardName>
+                    <NameContainer>
+                        <CardName>{damage.name}</CardName>
+                    </NameContainer>
                 </MainCard>
             ))}
             </CharacterContainer>
@@ -107,9 +110,12 @@ export default function Card() {
                         </FadeIn>
                     ))}
                 {/* </MainCard> */}
+                {/* <Navbar showGoBack={selectedCharacter !== null} onGoBack={() => setSelectedCharacter(null)}/> */}
             </CounterContainer>
             </>
         )}
+        <Navbar showGoBack={selectedCharacter !== null} onGoBack={() => setSelectedCharacter(null)}/>
+        {/* <Navbar /> */}
         </>
     );
 }

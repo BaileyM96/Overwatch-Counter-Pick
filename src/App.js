@@ -1,4 +1,4 @@
-import './App.css';
+
 import { GlobalStyle } from './components/styled/GlobalStyle.styled';
 import CharacterSelect from './components/CharacterSelect';
 

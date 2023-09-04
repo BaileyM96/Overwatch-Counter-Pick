@@ -19,7 +19,8 @@ background: -moz-radial-gradient(circle, hsla(221, 51%, 16%, 1) 26%, hsla(0, 0%,
 background: -webkit-radial-gradient(circle, hsla(221, 51%, 16%, 1) 26%, hsla(0, 0%, 0%, 1) 92%);
 /* height: 100vh; */
 margin: 0;
-padding: 0;
-/* font-family: 'Luckiest Guy', cursive; */
+padding-bottom: 30%;
+font-family: 'Luckiest Guy', cursive;
+letter-spacing: 2px;
 }
 `;

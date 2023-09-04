@@ -13,13 +13,13 @@ import Zarya from '../../../images/Tank/Zarya.png';
 export const tankCharacters = [
     {name: 'D.VA', image:DVA },
     {name: 'Doomfist', image:Doomfist },
-    {name: 'JunkerQueen', image:JunkerQueen },
+    {name: 'Junker Queen', image:JunkerQueen },
     {name: 'Orisa', image:Orisa },
     {name: 'Rammatra', image:Ramattra },
     {name: 'Reinhardt', image:Reinhardt },
     {name: 'Roadhog', image:Roadhog },
     {name: 'Sigma', image:Sigma },
     {name: 'Winston', image:Winston },
-    {name: 'Wreckingball', image:WreckingBall },
+    {name: 'Wrecking Ball', image:WreckingBall },
     {name: 'Zarya', image:Zarya },
 ];

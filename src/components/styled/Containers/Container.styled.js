@@ -21,3 +21,9 @@ flex-direction: column;
 align-items: center;
 margin-top: 10%;
 `;
+
+export const NameContainer = styled.div`
+display: flex;
+align-items: center;
+justify-content: center;
+`;

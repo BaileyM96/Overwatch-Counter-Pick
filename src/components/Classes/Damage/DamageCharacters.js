@@ -27,11 +27,11 @@ export const damageCharacters = [
     { name: 'Mei', image: Mei },
     { name: 'Pharah', image: Pharah },
     { name: 'Reaper', image: Reaper },
-    { name: 'Sojurn', image: Sojourn },
+    { name: 'Sojourn', image: Sojourn },
     { name: 'Soldier 76', image: Soldier },
     { name: 'Sombra', image: Sombra },
     { name: 'Symmetra', image: Symmetra },
-    { name: 'Torbjorn', image: Torbjorn },
+    { name: 'Torbjourn', image: Torbjorn },
     { name: 'Tracer', image: Tracer },
     { name: 'Widowmaker', image: Widowmaker },
 ];

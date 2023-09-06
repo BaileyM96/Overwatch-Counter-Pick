@@ -7,10 +7,13 @@ background: #cfcfcf;
 `;
 
 export const CardName = styled.div`
+display: flex;
 width: 167px;
 height: 49.12px;
 background-color: white;
 color: black;
+justify-content: center;
+align-items: center;
 `;
 
 //The border color needs to be orange when It is clicked

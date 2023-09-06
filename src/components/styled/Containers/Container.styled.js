@@ -8,7 +8,7 @@ justify-content: center;
 align-items: center;
 text-align: center;
 font-weight: bolder;
-/* margin-bottom: 70px; */
+margin-bottom: 75px;
 column-gap: 16px;
 row-gap: 16px;
 `;

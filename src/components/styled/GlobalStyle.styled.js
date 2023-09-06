@@ -21,6 +21,6 @@ background: -webkit-radial-gradient(circle, hsla(221, 51%, 16%, 1) 26%, hsla(0, 
 margin: 0;
 padding-bottom: 30%;
 font-family: 'Luckiest Guy', cursive;
-letter-spacing: 2px;
+letter-spacing: 1px;
 }
 `;

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Overwatch-Counter-Pick/static/css/main.e6c13ad2.css",
-    "main.js": "/Overwatch-Counter-Pick/static/js/main.b5202476.js",
+    "main.js": "/Overwatch-Counter-Pick/static/js/main.46ea9edc.js",
     "static/js/787.c49cade8.chunk.js": "/Overwatch-Counter-Pick/static/js/787.c49cade8.chunk.js",
     "static/media/Junkrat.png": "/Overwatch-Counter-Pick/static/media/Junkrat.a83a24b68ce5a66c5524.png",
     "static/media/Reinhardt.png": "/Overwatch-Counter-Pick/static/media/Reinhardt.b2cb963a674be71b7d9d.png",
@@ -42,11 +42,11 @@
     "static/media/Zenyatta.png": "/Overwatch-Counter-Pick/static/media/Zenyatta.0c4dc637b73f21ddf034.png",
     "index.html": "/Overwatch-Counter-Pick/index.html",
     "main.e6c13ad2.css.map": "/Overwatch-Counter-Pick/static/css/main.e6c13ad2.css.map",
-    "main.b5202476.js.map": "/Overwatch-Counter-Pick/static/js/main.b5202476.js.map",
+    "main.46ea9edc.js.map": "/Overwatch-Counter-Pick/static/js/main.46ea9edc.js.map",
     "787.c49cade8.chunk.js.map": "/Overwatch-Counter-Pick/static/js/787.c49cade8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.b5202476.js"
+    "static/js/main.46ea9edc.js"
   ]
 }

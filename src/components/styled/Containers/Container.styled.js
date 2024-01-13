@@ -26,6 +26,7 @@ justify-content: center;
 flex-direction: column;
 align-items: center;
 margin-top: 10%;
+margin-bottom: 3%;
 
 @media screen and (min-width: 2560px) {
     margin-top: 0;

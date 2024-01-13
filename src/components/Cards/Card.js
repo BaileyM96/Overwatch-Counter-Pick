@@ -1,4 +1,4 @@
-import { CardImage, CardName, MainCard } from "../styled/Cards.styled";
+import { CardImage, CardName, MainCard, ClassName } from "../styled/Cards.styled";
 import { damageCharacters } from "../Classes/Damage/DamageCharacters";
 import { tankCharacters } from "../Classes/Tank/TankCharacters";
 import { supportCharacters } from "../Classes/Support/SupportCharacter";
@@ -38,7 +38,7 @@ export default function Card() {
         { !selectedCharacter ? (
         <>
         <HeaderContainer id="damage">
-            <h3 style={{color: 'white'}}>Damage</h3>
+            <ClassName>Damage</ClassName>
         </HeaderContainer>
         <CharacterContainer>
             {/* <h3 style={{color: 'white'}}>Damage</h3> */}
@@ -56,7 +56,7 @@ export default function Card() {
 
 
            <HeaderContainer id="tank">
-            <h3 style={{color: 'white'}}>Tank</h3>
+           <ClassName>Tank</ClassName>
            </HeaderContainer>
            <CharacterContainer>
             {tankCharacters.map(tank => (
@@ -71,7 +71,7 @@ export default function Card() {
 
 
             <HeaderContainer id="support">
-                <h3 style={{color: 'white'}}>Support</h3>
+                <ClassName>Support</ClassName>
             </HeaderContainer>
         <CharacterContainer>
             {supportCharacters.map(support => (

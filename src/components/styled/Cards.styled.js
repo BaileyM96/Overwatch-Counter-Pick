@@ -22,6 +22,12 @@ height: 216px;
 width: 167px;
 border: ${(props) => (props.onClick ? 'none' : '5px solid #f06414')};
 box-shadow: ${(props) => (props.onClick ? 'none' : '0 0 25px  #f06414')};
+
+transition: transfrom 0.2s ease;
+
+&:hover {
+    transform: scale(1.1);
+}
 `;
 
 export const ClassName = styled.h2`

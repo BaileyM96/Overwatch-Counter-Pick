@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Overwatch-Counter-Pick/static/css/main.e6c13ad2.css",
-    "main.js": "/Overwatch-Counter-Pick/static/js/main.5b99c3a3.js",
+    "main.js": "/Overwatch-Counter-Pick/static/js/main.ae971525.js",
     "static/js/787.c49cade8.chunk.js": "/Overwatch-Counter-Pick/static/js/787.c49cade8.chunk.js",
     "static/media/Junkrat.png": "/Overwatch-Counter-Pick/static/media/Junkrat.a83a24b68ce5a66c5524.png",
     "static/media/Reinhardt.png": "/Overwatch-Counter-Pick/static/media/Reinhardt.b2cb963a674be71b7d9d.png",
@@ -10,6 +10,7 @@
     "static/media/Ashe.png": "/Overwatch-Counter-Pick/static/media/Ashe.75fd3bf2ce2d372e281e.png",
     "static/media/Cassidy.png": "/Overwatch-Counter-Pick/static/media/Cassidy.37ba30c5f08163b76b7e.png",
     "static/media/Orisa.png": "/Overwatch-Counter-Pick/static/media/Orisa.fccb3e952955b7315ce4.png",
+    "static/media/Mauga.png": "/Overwatch-Counter-Pick/static/media/Mauga.950c03c58729aacd0991.png",
     "static/media/Lucio.png": "/Overwatch-Counter-Pick/static/media/Lucio.e1cc3118a8b90b3f7936.png",
     "static/media/Moira.png": "/Overwatch-Counter-Pick/static/media/Moira.96d5a5c1f583d48995b7.png",
     "static/media/WreckingBall.png": "/Overwatch-Counter-Pick/static/media/WreckingBall.3abee2c2f84e6ec66412.png",
@@ -31,6 +32,7 @@
     "static/media/JunkerQueen.png": "/Overwatch-Counter-Pick/static/media/JunkerQueen.2d5d3420ff4d622b925c.png",
     "static/media/Genji.png": "/Overwatch-Counter-Pick/static/media/Genji.4d3f42c19bf08ae0d0e3.png",
     "static/media/DVA.png": "/Overwatch-Counter-Pick/static/media/DVA.df3effee84ffce1c7477.png",
+    "static/media/Illari.png": "/Overwatch-Counter-Pick/static/media/Illari.65ee2f92ba10ff2dd8ab.png",
     "static/media/Brigitte.png": "/Overwatch-Counter-Pick/static/media/Brigitte.5e2139536a404f0d2d26.png",
     "static/media/Baptiste.png": "/Overwatch-Counter-Pick/static/media/Baptiste.b423bb88aa571a5628a1.png",
     "static/media/Hanzo.png": "/Overwatch-Counter-Pick/static/media/Hanzo.7247221f34d0db446f5e.png",
@@ -42,11 +44,11 @@
     "static/media/Zenyatta.png": "/Overwatch-Counter-Pick/static/media/Zenyatta.0c4dc637b73f21ddf034.png",
     "index.html": "/Overwatch-Counter-Pick/index.html",
     "main.e6c13ad2.css.map": "/Overwatch-Counter-Pick/static/css/main.e6c13ad2.css.map",
-    "main.5b99c3a3.js.map": "/Overwatch-Counter-Pick/static/js/main.5b99c3a3.js.map",
+    "main.ae971525.js.map": "/Overwatch-Counter-Pick/static/js/main.ae971525.js.map",
     "787.c49cade8.chunk.js.map": "/Overwatch-Counter-Pick/static/js/787.c49cade8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.5b99c3a3.js"
+    "static/js/main.ae971525.js"
   ]
 }

@@ -9,11 +9,13 @@ import Sigma from '../../../images/Tank/Sigma.png';
 import Winston from '../../../images/Tank/Winston.png';
 import WreckingBall from '../../../images/Tank/WreckingBall.png';
 import Zarya from '../../../images/Tank/Zarya.png';
+import Mauga from '../../../images/Tank/Mauga.png';
 
 export const tankCharacters = [
     {name: 'DVA', image:DVA },
     {name: 'Doomfist', image:Doomfist },
     {name: 'Junker Queen', image:JunkerQueen },
+    {name: 'Mauga', image:Mauga },
     {name: 'Orisa', image:Orisa },
     {name: 'Ramattra', image:Ramattra },
     {name: 'Reinhardt', image:Reinhardt },

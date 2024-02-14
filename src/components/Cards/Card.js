@@ -76,7 +76,7 @@ export default function Card() {
         <CharacterContainer>
             {supportCharacters.map(support => (
                 <MainCard key={support.name} onClick={() => handleCounter(support, 'support')}>
-                    <CardImage>
+                    <CardImage style={{height: "167px"}}>
                         <img src={support.image} alt={support.name}/>
                     </CardImage>
                     <CardName>{support.name}</CardName>

@@ -50,6 +50,7 @@ const findCharacterImage = (characterName, type) => {
                 'DVA': ['Brigitte', 'Doomfist', 'Moira', 'Reaper', 'Roadhog', 'Sigma', 'Symmetra', 'Winston', 'Zaraya'],
                 'Doomfist': ['Ana', 'Ashe', 'Brigitte', 'Cassidy', 'Mei', 'Pharah', 'Roadhog'],
                 'Junker Queen': ['Ana', 'Ashe', 'Baptiste', 'Cassidy', 'Pharah', 'Soldier 76', 'Widowmaker', 'Zenyatta'],
+                'Mauga': ['Ana', 'Bastion', 'DVA', 'Genji', 'Kiriko', 'Sigma'],
                 'Orisa': ['Ana', 'Ashe', 'Baptiste', 'DVA', 'Echo', 'Hanzo', 'Kiriko', 'Pharah', 'Reaper', 'Sojourn', 'Sombra', 'Soldier 76', 'Widowmaker', 'Zenyatta'],
                 'Ramattra': ['Ana', 'Bastion', 'DVA', 'Kiriko', 'Orisa', 'Roadhog', 'Symmetra', 'Tracer', 'Zenyatta'],
                 'Reinhardt': ['Ana', 'Brigitte', 'Junkrat', 'Mei', 'Pharah', 'Reaper', 'Sombra', 'Tracer'],
@@ -68,7 +69,8 @@ const findCharacterImage = (characterName, type) => {
                 'Lucio': ['Ashe', 'Cassidy', 'Moira', 'Soldier 76', 'Symmetra', 'Torbjorn', 'Winston', 'Zarya'],
                 'Mercy': ['Ana', 'Ashe', 'Baptiste', 'Cassidy', 'Genji', 'Moira', 'Reaper', 'Roadhog', 'Soldier 76', 'Winston', 'Wrecking Ball'],
                 'Moira': ['Ana', 'Ashe', 'Echo', 'Genji', 'Pharah', 'Reaper', 'Sojourn', 'Sombra', 'Soldier 76', 'Widowmaker'],
-                'Zenyatta': ['DVA', 'Echo', 'Genji', 'Pharah', 'Reaper', 'Sigma', 'Tracer', 'Widowmaker']
+                'Zenyatta': ['DVA', 'Echo', 'Genji', 'Pharah', 'Reaper', 'Sigma', 'Tracer', 'Widowmaker'],
+                'Illari': ['Baptiste', 'DVA', 'Genji', 'Lifeweaver', 'Orisa', 'Sombra']
             }
         }
         const counterNames = counterMap[type][character.name] || [];

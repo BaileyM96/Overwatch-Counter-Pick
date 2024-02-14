@@ -7,11 +7,13 @@ import Lucio from '../../../images/Support/Lucio.png';
 import Mercy from '../../../images/Support/Mercy.png';
 import Moira from '../../../images/Support/Moira.png';
 import Zenyatta from '../../../images/Support/Zenyatta.png';
+import Illari from '../../../images/Support/Illari.png'
 
 export const supportCharacters = [
     {name: 'Ana', image: Ana},
     {name: 'Baptiste', image: Baptiste},
     {name: 'Brigitte', image: Brigitte},
+    {name: 'Illari', image: Illari},
     {name: 'Kiriko', image: Kiriko},
     {name: 'Lifeweaver', image: Lifeweaver},
     {name: 'Lucio', image: Lucio},

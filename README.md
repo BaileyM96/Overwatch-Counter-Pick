@@ -45,6 +45,7 @@ Exhausted from repetitive defeats by that one hero? Introducing Overwatch-Counte
 
 **Daisy Rincon** - Lead UI/UX Designer
 - [LinkedIn](https://www.linkedin.com/in/daisyxrincon/)
+- [Portfolio](https://www.daisyrincon.com/)
 
 
 ## Contributing

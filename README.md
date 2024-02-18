@@ -37,6 +37,13 @@ Exhausted from repetitive defeats by that one hero? Introducing Overwatch-Counte
 
 [Overwatch Counter gif.webm](https://github.com/BaileyM96/Overwatch-Counter-Pick/assets/108101478/bd1c4955-1a3f-43e1-8fc3-e3745267dd7b)
 
+
+
+https://github.com/BaileyM96/Overwatch-Counter-Pick/assets/108101478/817630c4-fd35-4c75-a262-d97bd0bfe11f
+
+
+
+
 ## Credits
 
 **Bailey Mejia** - Lead Software Developer
@@ -51,4 +58,6 @@ Exhausted from repetitive defeats by that one hero? Introducing Overwatch-Counte
 ## Contributing
 
 Your insights and expertise can make a difference! If you have suggestions, enhancements, or encounter any bugs please reach out to me by [Email](mailto:baileymejia28@gmail.com) or [LinkedIn](https://www.linkedin.com/in/bailey-mejia-30b055222/)
+
+
 
